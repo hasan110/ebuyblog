@@ -1,16 +1,17 @@
 <template>
-  <v-app>
-    <v-main class="app-wrapper">
-      <keep-alive :include="['site-header' , 'index']">
-        <Nuxt />
-      </keep-alive>
-    </v-main>
-  </v-app>
+  <div class="rtl">
+    <site-header></site-header>
+    <Nuxt />
+  </div>
 </template>
 
 <script>
+import siteHeader from "~/components/partials/site-header";
 export default {
   name: 'DefaultLayout',
+  components:{
+    siteHeader
+  },
   data () {
     return {
     }

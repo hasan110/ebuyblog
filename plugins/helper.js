@@ -3,10 +3,10 @@ Vue.mixin({
     data() {
         return {
             HostPath: 'http://localhost:3000',
-            // FileUrl: 'http://localhost:8000/uploads/',
+            FileUrl: 'http://localhost:8000/uploads/',
             StaticUrl: 'http://localhost:3000/images/',
             // HostPath: 'https://allwincrypto.com',
-            FileUrl:'https://dl.polexofficial.com/uploads/',
+            // FileUrl:'https://dl.polexofficial.com/uploads/',
             // StaticUrl:'https://allwincrypto.com/images/',
             DefaultLanguage: 'fa',
             themeColor: '#00A9A5',
@@ -16,9 +16,9 @@ Vue.mixin({
         getPageTitle(text = null) {
           if(text)
           {
-            return text + ' | ' + 'ای بای e-buy';
+            return text + ' | ' + 'بلاگ ای بای e-buy';
           }
-          return 'ای بای e-buy';
+          return 'بلاگ ای بای e-buy';
         },
         isEmpty(obj) {
             return Object.keys(obj).length === 0;

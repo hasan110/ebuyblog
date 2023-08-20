@@ -15,10 +15,12 @@ export default {
     },
 
     css: [
-      '~assets/css/icons.min.css',
+      '~assets/css/all.css',
+      '~assets/css/elegant-font-icons.css',
       '~assets/css/bootstrap.min.css',
-      '~assets/css/plugins.min.css',
-      '~assets/css/styles.css',
+      '~assets/css/owl.carousel.css',
+      '~assets/css/style.css',
+      '~assets/css/custom.css',
 
         // SCSS
         //'~assets/sass/style.scss'
@@ -39,7 +41,7 @@ export default {
 
     buildModules: [
         '@nuxtjs/eslint-module',
-        '@nuxtjs/vuetify',
+        // '@nuxtjs/vuetify',
         'vue-ssr-carousel/nuxt'
     ],
 
@@ -88,6 +90,7 @@ export default {
         }
     },*/
 
+    /*
     vuetify: {
         rtl: true,
         theme: {
@@ -116,6 +119,7 @@ export default {
             }
         }
     }
+    */
 
     //build: {
         //transpile: ['vee-validate/dist/rules']
