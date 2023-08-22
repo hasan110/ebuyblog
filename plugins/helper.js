@@ -2,12 +2,12 @@ import Vue from 'vue';
 Vue.mixin({
     data() {
         return {
-            HostPath: 'http://localhost:3000',
-            FileUrl: 'http://localhost:8000/uploads/',
-            StaticUrl: 'http://localhost:3000/images/',
-            // HostPath: 'https://allwincrypto.com',
-            // FileUrl:'https://dl.polexofficial.com/uploads/',
-            // StaticUrl:'https://allwincrypto.com/images/',
+            // HostPath: 'http://localhost:3000',
+            // FileUrl: 'http://localhost:8000/uploads/',
+            // StaticUrl: 'http://localhost:3000/images/',
+            HostPath: 'https://blog.e-buy-shop.com',
+            FileUrl:'https://dl.polexofficial.com/uploads/',
+            StaticUrl:'https://blog.e-buy-shop.com/images/',
             DefaultLanguage: 'fa',
             themeColor: '#00A9A5',
         }
